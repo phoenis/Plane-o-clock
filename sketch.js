@@ -118,7 +118,7 @@ function myText(size,distance) {
 	textFont(myFont);
 	textSize(size);
 	textAlign(CENTER);
-	fill(207,61,80);
+	fill(80,148,204);
 	
 	text("Click to change the light!", 0, distance);
 }
