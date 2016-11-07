@@ -37,7 +37,7 @@ function myHour(size,distance,value) {
 	rotate(h*30)
 	var size;
 	if(h >= 7+value && h <= 17+value) {
-		background(205,205,255);
+		background(105,205,255);
 		image(sun,-size/2,-size/2,size,size);
 	} else {
 		background(80,116,162);
