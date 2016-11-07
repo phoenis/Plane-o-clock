@@ -34,7 +34,7 @@ function myHour(size,distance,value) {
 	translate(distance*cos(h*30),distance*sin(h*30));
 	
 	rotate(90);
-	rotate(h*30)
+	rotate(h*30);
 	var size;
 	if(h >= 7+value && h <= 17+value) {
 		background(140,203,255);
